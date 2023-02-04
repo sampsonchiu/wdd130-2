@@ -12,6 +12,7 @@ a {
 h1 {
   text-align: center;
   color: steelblue; 
+  margin: 50px 0;
 }
 img {
   width: 80%;
@@ -22,7 +23,7 @@ img {
 footer p {
   font-size: 20px;
   margin: 20px auto;
-  padding: 10px;
+  padding: 25px;
 }
 .main-para {
   width: 80%;

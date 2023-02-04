@@ -1,0 +1,13 @@
+main img{
+    width: 60%;
+    display:block;
+    margin:50px auto;   
+}
+footer img{
+    width: 200px;
+    display:inline-block;
+    margin: 0 auto;
+    border: 40px solid grey
+    padding: 0px;   
+}
+# 待解決：footer置中/圖片外框圓/灰色背景/與上圖對齊

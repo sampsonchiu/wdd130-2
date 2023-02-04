@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Lobster&display=swap');
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -6,24 +8,32 @@ nav a {
     text-align: center;
     color: mediumpurple;
     text-decoration: none;
+    padding: 35px;
 }
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
+    font-family: 'lobster';
+    margin: 20px;
 }
 .button-box {
     text-align: center;
 }
 main section {
     text-align: center;
+    font-family: Bree Serif, Helvetica, sans-serif;
+    margin-top: 100px;
 }
 #background {
     height: 725px;
 }
 body {
     background-color: #bde0fe ;
+    margin: 0;
+    padding: 0;
 }
 header {
     background-color: white;
+    font-family: 'lobster';
 }
 nav a:hover {
     background-color: #cdb4db;
@@ -32,6 +42,11 @@ nav a:hover {
     background-color: #bde0fe;
     color: mediumpurple;
     text-decoration: none;
+    font-family: Bree Serif, Helvetica, sans-serif;
+    font-size: 20px;
+    padding:15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover {
     background-color: #cdb4db;
@@ -42,22 +57,37 @@ nav a:hover {
 }
 .msg {
     background-color: white;
+    line-height: 1.5em;
+    padding: 35px;
 }
 footer {
     background-color: #cdb4db;
     color: black;
+    font-family: Bree Serif, Helvetica, sans-serif;
+    font-size: 25px;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 .home-title {
     color:black;
+    font-size: 4em;
+    margin-top: 10px;
 }
 h4 {
     color:#275dad;
+    font-family: 'lobster';
+    font-size: 25px;
 }
 .msg h2 {
     color: black;
+    font-family: 'lobster';
+    font-size: 35px;
 }
 .msg p {
     color: #275dad;
+    font-family: 'lobster';
+    font-size: 1.5em;
+    padding-bottom: 15px;
 }
 footer a {
     color: mediumpurple;
@@ -71,6 +101,7 @@ footer a:hover {
 }
 .icon {
     width: 80px ;
+    padding-top: 10px;
 }
 #hero-img {
     width: 100%;
@@ -78,3 +109,25 @@ footer a:hover {
 footer p a:hover {
     text-decoration: underline;
 }   
+h2{
+    margin: 0;
+    padding: 0;
+}
+#logo_link{
+    padding-top: 5px;
+}
+footer .social img{
+    padding-top: 15px;
+}
+.rivers-card, .camping-card, .rapids-card, .mountains{
+    margin: 200px 0;
+}
+.card-img{
+    border: 10px solid #275dad;
+}
+main section img{
+    box-sizing: border-box;
+}
+#hero{
+    border: 3px solid rgb(241, 241, 241);
+}
