@@ -1,0 +1,29 @@
+.home-grid{
+    display:grid;
+    grid-template-columns: 400px 400px;
+    grid-template-rows: 400px 400px;
+}
+h1{
+    font-size: 90px;
+    grid-column: 1/3;
+    grid-row: 1/2;
+    z-index: 1;
+    margin: 0 auto;
+    margin-top: 50px;
+    background-color: aqua;
+}
+img{
+    width: 400px;
+    grid-column: 1/2;
+    grid-row: 1/3;
+    background-color: aquamarine;
+}
+h2{
+    grid-column: 2/3;
+    grid-row: 1/3;
+    font-size: 50px;
+    color: crimson;
+    margin: 150px auto;
+    margin-top: 250px;
+    background-color: blue;
+}
